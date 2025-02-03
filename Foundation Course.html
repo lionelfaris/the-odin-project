@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation Course</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Poppins", serif;
+      }
+
+      .navbar {
+        align-items: center;
+        height: 100px;
+        text-shadow: 0px 2px 10px rgba(26, 17, 53, 0.2);
+        transition: all 1s ease-out;
+        position: sticky;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(249, 212, 26);
+        color: white;
+        padding: 30px;
+        margin-bottom: 30px;
+      }
+
+      .navbar:hover {
+        box-shadow: 0px 0px 20px rgba(236, 167, 40, 0.7);
+        text-shadow: 0px 2px 10px rgba(26, 17, 53, 0.3);
+        transition: all 1s ease;
+        color: rgb(2, 107, 255);
+        font-size: larger;
+      }
+
+      h2 {
+        padding: 15px;
+        border-radius: 20px;
+        color: white;
+        display: flex;
+        width: fit-content;
+        margin-bottom: 30px;
+        background-color: rgb(2, 107, 255);
+      }
+
+      h3 {
+        margin-bottom: 10px;
+        margin-left: 30px;
+      }
+
+      .how-does-the-web-work {
+        margin-left: 30px;
+      }
+
+      .pertanyaan {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-right: 50px;
+        padding-left: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <h1>How Does the Web Work ?</h1>
+    </div>
+    <div class="how-does-the-web-work">
+      <h2>Foundation Course</h2>
+
+      <h3>Knowledge Check</h3>
+
+      <div class="pertanyaan">
+        <div class="pertanyaan-1">
+          <ul>
+            <li><i>What is a web server?</i></li>
+          </ul>
+          <p>
+            Web server is computer that stores data. Whenever user search for a
+            website on the web browser. The web browser's gonna ask the web
+            server for the access. It's using TCP/IP and HTTP methods. If the
+            web server agree to give the access, then it's gonna return the
+            output to the user in form of website or web page.
+          </p>
+        </div>
+        <div class="pertanyaan-2">
+          <ul>
+            <li><i>What is a network?</i></li>
+          </ul>
+          <p>
+            Network is a minimum of two connected things, it could be people,
+            computer, etc. Network allows us to communicate between one and
+            others. For example, two connected Pc's is a network.
+          </p>
+        </div>
+        <div class="pertanyaan-3">
+          <ul>
+            <li><i>What is the internet?</i></li>
+          </ul>
+          <p>
+            The internet is a group of networks. It means that internet is more
+            broad and global.
+          </p>
+        </div>
+        <div class="pertanyaan-4">
+          <ul>
+            <li><i>What is an IP Address?</i></li>
+          </ul>
+          <p>
+            IP Address is the identity of any computers. It could be seen as
+            home address. Whereas if there isn't a clear address, the packet
+            could've gone to the wrong address or pc. It makes sure that the
+            packet is sent correctly.
+          </p>
+        </div>
+        <div class="pertanyaan-5">
+          <ul>
+            <li><i>What is a router?</i></li>
+          </ul>
+          <p>
+            Router is a device that's connecting one network and anothers.
+            Router is very useful. Imagine if there are 20 of computers. Without
+            router, we need to connect every single computer with another
+            computer to be able to form a network. With router, we just need one
+            that is placed in the middle, and the 20 computers just need to
+            connect their cables to that router. That router will be a "bridge"
+            to connect between one and other computers.
+          </p>
+        </div>
+        <div class="pertanyaan-6">
+          <ul>
+            <li><i>What is an ISP?</i></li>
+          </ul>
+          <p>
+            ISP, as known as Internet Service Provider is just as simple as our
+            wifi provider. For example, mine using MyRepublic. Our computers are
+            not actually connected directly with the web server. Instead, our
+            computer send a request to our ISP, then our ISP send it to the web
+            server. So, at this point our ISP acts the same as router in term of
+            the concept.
+          </p>
+        </div>
+        <div class="pertanyaan-7">
+          <ul>
+            <li>
+              <i>What are packets and how are they used to transfer data?</i>
+            </li>
+          </ul>
+          <p>
+            Packets is a term of the data that being sent between a network.
+            Basically, our data is being chunked first in the process of the
+            transfer, then when it arrives to the target, the data is forming to
+            the normal form again, imagine that process as a puzzle game. Why is
+            that? That process actually make the data easier to transfer. One
+            big chunk of data is harder to process than breaking it first into
+            several small size of data.
+          </p>
+        </div>
+        <div class="pertanyaan-8">
+          <ul>
+            <li>
+              <i>What are packets and how are they used to transfer data?</i>
+            </li>
+          </ul>
+          <p>
+            Packets is a term of the data that being sent between a network.
+            Basically, our data is being chunked first in the process of the
+            transfer, then when it arrives to the target, the data is forming to
+            the normal form again, imagine that process as a puzzle game. Why is
+            that? That process actually make the data easier to transfer. One
+            big chunk of data is harder to process than breaking it first into
+            several small size of data.
+          </p>
+        </div>
+        <div class="pertanyaan-9">
+          <ul>
+            <li><i>What is a client?</i></li>
+          </ul>
+          <p>
+            A client is basically we as a user, or spesifically computer that we
+            use daily. It's because our computer actually act as a customer
+            that's "ordering" the "menu" from the "chef", in this context, the
+            "chef" is a "web server."
+          </p>
+        </div>
+        <div class="pertanyaan-10">
+          <ul>
+            <li><i>What is a server?</i></li>
+          </ul>
+          <p>
+            Server is a "chef" that's processing our data. Just like the real
+            chef in a restaurant, server's usually invisible from the internet
+            user. Actually, server itself is a one or more computer that stores
+            and processes our data. Server's receiving request from the client.
+            For example, when we search "google.com", we (as a client)
+            requesting to the server to give us the web site or web page of the
+            "google.com". From then, the server decides if it should give the
+            access to the client or not. If the server's giving the access, then
+            the we (as a client) are able to see "google.com" web page.
+          </p>
+        </div>
+        <div class="pertanyaan-11">
+          <ul>
+            <li><i>What is a web page?</i></li>
+          </ul>
+          <p>
+            A web page is what we're usually see when the first time opened the
+            web site. One page of web site is already a web page. For example,
+            index.html.
+          </p>
+        </div>
+        <div class="pertanyaan-12">
+          <ul>
+            <li><i>What is a web browser?</i></li>
+          </ul>
+          <p>
+            A web browser is the application used to search a website. For
+            example google, duckduckgo, yahoo, edge, etc.
+          </p>
+        </div>
+        <div class="pertanyaan-13">
+          <ul>
+            <li><i>What is a search engine?</i></li>
+          </ul>
+          <p>
+            Search engine is a tool provided by the web browser. For example,
+            chrome is a web browser that's providing a google search engine to
+            search on.
+          </p>
+        </div>
+        <div class="pertanyaan-14">
+          <ul>
+            <li><i>What is a DNS request?</i></li>
+          </ul>
+          <p>
+            DNS request is a process of looking for the right IP Address from
+            the given domain. "google.com" is actually a simplified version of
+            the google's IP Address. So, after we search "google.com", it's
+            gonna verified the IP Address, then go to that Address. DNS (Domain
+            Name System) is made to make the process of search easier for the
+            user.
+          </p>
+        </div>
+        <div class="pertanyaan-15">
+          <ul>
+            <li><i>Which browser are you currently using?</i></li>
+          </ul>
+          <p>Currently I'm using chrome and edge as a web browser.</p>
+        </div>
+        <div class="pertanyaan-16">
+          <ul>
+            <li>
+              <i
+                >In your own words, describe the process that takes place when
+                you initiate a search on google.com in terms of what we
+                discussed.</i
+              >
+            </li>
+          </ul>
+          <p>
+            The processes are : First, user write the question -> enter to find
+            the desired answer -> google.com is requesting the answer from the
+            web server -> web server send the data to google.com -> google.com
+            shows the output from the server to the user.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
